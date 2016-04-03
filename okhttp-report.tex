@@ -1,0 +1,67 @@
+
+\documentclass[article, onecolumn]{IEEEtran}
+
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{array}
+\usepackage{hyperref}
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+
+\title{Software Reliability and Testing \\ Report }
+
+\author{\IEEEauthorblockN{<Your Name> \\Faculty of Computer Science \\ Free University of Bozen-Bolzano\footnote{This material is published under Creative Commons}}
+}
+
+\maketitle
+
+
+\section{ Abstract}
+\textbf{Background.}  
+Complex networks such as  protein interaction networks or  electronic circuits exhibit specific common global traits. Such characteristics distinguish them from random networks and have been proved to indicate enhanced internal information flow. 
+Software systems can be modelled as complex networks with the same global characteristics by means of their dependency structure. Software systems can be very different in their basic sub-structures though.  Their local organisation reflects their evolutionary nature: some of their recurring sub-structures are intentionally coded to make them evolvable (i.e., design patterns),  others may arise because of  human interventions during their evolution (i.e., emergent sub-structures).
+
+\noindent
+\textbf{Aims.} In this work, we aim at profiling software systems by their non-random sub-structures,  analyse them across consecutive releases, and identifying those recurrent sub-structures that are motivated by specific design choices. Our overall goal is to explore a new means to compare software systems through their micro- oranisation. 
+
+\noindent
+\textbf{Method.} We build dependency networks  of subsequent versions of five open source software systems and extract their non-random sub-structures with three nodes, \textit{size-3 motifs}. We  profile each network using such substructures. We compare the resulting profiles across the versions of the same project and across those of different  projects. We then compute  the probability that   design patterns occur in such motifs over versions. 
+
+\noindent
+\textbf{Results.} We found that software  systems under study have common non-random motifs that profile their global evolution pinpointing critical evolutionary phases. We found that depending on the project some of the non-random motifs constantly include design patterns over their versions, whereas other motifs are good candidates for emergent sub-structures. 
+
+
+
+\section{Brief introduction}
+$<$Some text here$>$
+\section{Project description}
+$<$Some text here$>$
+\subsection{Major functionalities}
+$<$Some text here$>$
+\subsection{ Research questions}
+$<$Some text here$>$
+\subsection{ Descriptive analysis}
+$<$Some text here$>$
+
+\section{Task 1: Characterise bugs in terms of specifications and dependability properties}
+$<$Some text here$>$
+\section{Task 2: Create/re-engineer  a test suit that is able to capture your bugs}
+$<$Some text here$>$
+\section{Task 3: Describe the SRGMs and their fitting on your data}
+$<$Some text here$>$e>
+\section{Task 4: Compare best fit models by their $R^2$}
+$<$Some text here$>$
+\section{Task 5: Stability of best fit SRGM models}
+$<$Some text here$>$
+\section{Threats}
+$<$Some text here$>$
+\section{Conclusions}
+$<$Some text here$>$
+
+
+\end{document}
